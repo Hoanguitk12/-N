@@ -1,0 +1,26 @@
+C:\Users\kdi69\Documents\GitHub\QuanLyNhaTre\QLNhaTre\DAL_QLNT\bin\Debug\DAL_QLNT.dll
+C:\Users\kdi69\Documents\GitHub\QuanLyNhaTre\QLNhaTre\DAL_QLNT\bin\Debug\DAL_QLNT.pdb
+C:\Users\kdi69\Documents\GitHub\QuanLyNhaTre\QLNhaTre\DAL_QLNT\bin\Debug\DTO_QLNT.dll
+C:\Users\kdi69\Documents\GitHub\QuanLyNhaTre\QLNhaTre\DAL_QLNT\bin\Debug\DTO_QLNT.pdb
+C:\Users\kdi69\Documents\GitHub\QuanLyNhaTre\QLNhaTre\DAL_QLNT\obj\Debug\DAL_QLNT.csprojAssemblyReference.cache
+C:\Users\kdi69\Documents\GitHub\QuanLyNhaTre\QLNhaTre\DAL_QLNT\obj\Debug\DAL_QLNT.csproj.CoreCompileInputs.cache
+C:\Users\kdi69\Documents\GitHub\QuanLyNhaTre\QLNhaTre\DAL_QLNT\obj\Debug\DAL_QLNT.csproj.CopyComplete
+C:\Users\kdi69\Documents\GitHub\QuanLyNhaTre\QLNhaTre\DAL_QLNT\obj\Debug\DAL_QLNT.dll
+C:\Users\kdi69\Documents\GitHub\QuanLyNhaTre\QLNhaTre\DAL_QLNT\obj\Debug\DAL_QLNT.pdb
+D:\QLNhaTre\DAL_QLNT\obj\Debug\DAL_QLNT.csprojAssemblyReference.cache
+D:\QLNhaTre\DAL_QLNT\obj\Debug\DAL_QLNT.csproj.CoreCompileInputs.cache
+D:\QLNhaTre\DAL_QLNT\obj\Debug\DAL_QLNT.dll
+D:\QLNhaTre\DAL_QLNT\obj\Debug\DAL_QLNT.pdb
+D:\QLNhaTre\DAL_QLNT\bin\Debug\DAL_QLNT.dll
+D:\QLNhaTre\DAL_QLNT\bin\Debug\DAL_QLNT.pdb
+D:\QLNhaTre\DAL_QLNT\bin\Debug\DTO_QLNT.dll
+D:\QLNhaTre\DAL_QLNT\bin\Debug\DTO_QLNT.pdb
+D:\QLNhaTre\DAL_QLNT\obj\Debug\DAL_QLNT.csproj.CopyComplete
+D:\mạch số\QuanLyNhaTre-Hocsinh\QLNhaTre\DAL_QLNT\bin\Debug\DAL_QLNT.dll
+D:\mạch số\QuanLyNhaTre-Hocsinh\QLNhaTre\DAL_QLNT\bin\Debug\DAL_QLNT.pdb
+D:\mạch số\QuanLyNhaTre-Hocsinh\QLNhaTre\DAL_QLNT\bin\Debug\DTO_QLNT.dll
+D:\mạch số\QuanLyNhaTre-Hocsinh\QLNhaTre\DAL_QLNT\bin\Debug\DTO_QLNT.pdb
+D:\mạch số\QuanLyNhaTre-Hocsinh\QLNhaTre\DAL_QLNT\obj\Debug\DAL_QLNT.csprojResolveAssemblyReference.cache
+D:\mạch số\QuanLyNhaTre-Hocsinh\QLNhaTre\DAL_QLNT\obj\Debug\DAL_QLNT.csproj.CoreCompileInputs.cache
+D:\mạch số\QuanLyNhaTre-Hocsinh\QLNhaTre\DAL_QLNT\obj\Debug\DAL_QLNT.dll
+D:\mạch số\QuanLyNhaTre-Hocsinh\QLNhaTre\DAL_QLNT\obj\Debug\DAL_QLNT.pdb
