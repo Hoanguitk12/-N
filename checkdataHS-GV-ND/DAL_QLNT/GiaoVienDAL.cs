@@ -22,7 +22,7 @@ namespace DAL_QLNT
         public List<GiaoVien> GetListGiaoVien()
         {
             List<GiaoVien> list = new List<GiaoVien>();
-            string query = string.Format("SELECT * FROM GIAOVIEN");
+            string query = string.Format("SELECT * FROM GIAOVIEN ");
             DataTable dt = DataProvider.Instance.ExecuteQuery(query);
             foreach (DataRow item in dt.Rows)
             {

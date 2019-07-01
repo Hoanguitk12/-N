@@ -16,6 +16,7 @@ namespace GUI_QLNT
         public frmThemND()
         {
             InitializeComponent();
+          
         }
         private void ThemUsers(string taiKhoan, string matKhau, int maGV, string quyen)
         {
@@ -46,6 +47,7 @@ namespace GUI_QLNT
         }
         private void btnThem_Click(object sender, EventArgs e)
         {
+            
             if (CheckData())
             {
 
@@ -55,9 +57,9 @@ namespace GUI_QLNT
 
 
                 string matKhau = textBox2.Text;
+               int maGV = (comboBox1.SelectedItem as DTO_QLNT.GiaoVien).MaGiaoVien;
 
-
-                ThemUsers(taiKhoan, matKhau, 2, "giáo viên");
+                ThemUsers(taiKhoan, matKhau, maGV, "giáo viên");
                 this.Dispose();
 
 
@@ -69,6 +71,24 @@ namespace GUI_QLNT
         private void btnHuy_Click(object sender, EventArgs e)
         {
             this.Dispose();
+        }
+        private void LoadTenGvtoCombobox()
+        {
+            
+            comboBox1.DisplayMember = "HOTEN";
+          comboBox1.ValueMember = "MAGV";
+            comboBox1.DataSource = GiaoVienBUS.Instance.GetListGiaoVien();
+
+        }
+
+        private void comboBox1_SelectedIndexChanged(object sender, EventArgs e)
+        {
+          
+        }
+
+        private void frmThemND_Load(object sender, EventArgs e)
+        {
+            LoadTenGvtoCombobox();
         }
     }
 }

@@ -24,3 +24,11 @@ D:\mạch số\QuanLyNhaTre-Hocsinh\QLNhaTre\DAL_QLNT\obj\Debug\DAL_QLNT.csprojR
 D:\mạch số\QuanLyNhaTre-Hocsinh\QLNhaTre\DAL_QLNT\obj\Debug\DAL_QLNT.csproj.CoreCompileInputs.cache
 D:\mạch số\QuanLyNhaTre-Hocsinh\QLNhaTre\DAL_QLNT\obj\Debug\DAL_QLNT.dll
 D:\mạch số\QuanLyNhaTre-Hocsinh\QLNhaTre\DAL_QLNT\obj\Debug\DAL_QLNT.pdb
+C:\Users\ASUS\Documents\GitHub\-N\checkdataHS-GV-ND\DAL_QLNT\bin\Debug\DAL_QLNT.dll
+C:\Users\ASUS\Documents\GitHub\-N\checkdataHS-GV-ND\DAL_QLNT\bin\Debug\DAL_QLNT.pdb
+C:\Users\ASUS\Documents\GitHub\-N\checkdataHS-GV-ND\DAL_QLNT\bin\Debug\DTO_QLNT.dll
+C:\Users\ASUS\Documents\GitHub\-N\checkdataHS-GV-ND\DAL_QLNT\bin\Debug\DTO_QLNT.pdb
+C:\Users\ASUS\Documents\GitHub\-N\checkdataHS-GV-ND\DAL_QLNT\obj\Debug\DAL_QLNT.csprojResolveAssemblyReference.cache
+C:\Users\ASUS\Documents\GitHub\-N\checkdataHS-GV-ND\DAL_QLNT\obj\Debug\DAL_QLNT.csproj.CoreCompileInputs.cache
+C:\Users\ASUS\Documents\GitHub\-N\checkdataHS-GV-ND\DAL_QLNT\obj\Debug\DAL_QLNT.dll
+C:\Users\ASUS\Documents\GitHub\-N\checkdataHS-GV-ND\DAL_QLNT\obj\Debug\DAL_QLNT.pdb

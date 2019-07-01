@@ -24,6 +24,7 @@ namespace GUI_QLNT
         {
             frmThemND fthemND = new frmThemND();
             fthemND.ShowDialog();
+            LoadDSNDtodtgv();
         }
 
         private void button2_Click(object sender, EventArgs e)

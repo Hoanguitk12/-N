@@ -30,3 +30,13 @@ D:\mạch số\QuanLyNhaTre-Hocsinh\QLNhaTre\BUS_QLNT\obj\Debug\BUS_QLNT.csprojR
 D:\mạch số\QuanLyNhaTre-Hocsinh\QLNhaTre\BUS_QLNT\obj\Debug\BUS_QLNT.csproj.CoreCompileInputs.cache
 D:\mạch số\QuanLyNhaTre-Hocsinh\QLNhaTre\BUS_QLNT\obj\Debug\BUS_QLNT.dll
 D:\mạch số\QuanLyNhaTre-Hocsinh\QLNhaTre\BUS_QLNT\obj\Debug\BUS_QLNT.pdb
+C:\Users\ASUS\Documents\GitHub\-N\checkdataHS-GV-ND\BUS_QLNT\bin\Debug\BUS_QLNT.dll
+C:\Users\ASUS\Documents\GitHub\-N\checkdataHS-GV-ND\BUS_QLNT\bin\Debug\BUS_QLNT.pdb
+C:\Users\ASUS\Documents\GitHub\-N\checkdataHS-GV-ND\BUS_QLNT\bin\Debug\DAL_QLNT.dll
+C:\Users\ASUS\Documents\GitHub\-N\checkdataHS-GV-ND\BUS_QLNT\bin\Debug\DTO_QLNT.dll
+C:\Users\ASUS\Documents\GitHub\-N\checkdataHS-GV-ND\BUS_QLNT\bin\Debug\DAL_QLNT.pdb
+C:\Users\ASUS\Documents\GitHub\-N\checkdataHS-GV-ND\BUS_QLNT\bin\Debug\DTO_QLNT.pdb
+C:\Users\ASUS\Documents\GitHub\-N\checkdataHS-GV-ND\BUS_QLNT\obj\Debug\BUS_QLNT.csprojResolveAssemblyReference.cache
+C:\Users\ASUS\Documents\GitHub\-N\checkdataHS-GV-ND\BUS_QLNT\obj\Debug\BUS_QLNT.csproj.CoreCompileInputs.cache
+C:\Users\ASUS\Documents\GitHub\-N\checkdataHS-GV-ND\BUS_QLNT\obj\Debug\BUS_QLNT.dll
+C:\Users\ASUS\Documents\GitHub\-N\checkdataHS-GV-ND\BUS_QLNT\obj\Debug\BUS_QLNT.pdb

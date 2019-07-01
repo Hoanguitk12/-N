@@ -24,6 +24,11 @@ namespace GUI_QLNT
         {
             InitializeComponent();
             Id = gv.Id;
+           // comboBox1.DataSource = GiaoVienBUS.Instance.GetListGiaoVien();
+            comboBox1.DisplayMember = "HOTEN";
+            comboBox1.ValueMember = "MAGV";
+            comboBox1.DataSource = GiaoVienBUS.Instance.GetListGiaoVien();
+            comboBox1.SelectedValue = gv.MaGV;
           
             textBox1.Text = gv.TaiKhoan;
             textBox2.Text = gv.MatKhau;
@@ -46,6 +51,7 @@ namespace GUI_QLNT
         }
         bool CheckData()
         {
+            
             if (string.IsNullOrEmpty(textBox1.Text))
             {
 
@@ -65,20 +71,33 @@ namespace GUI_QLNT
 
         private void btnSua_Click(object sender, EventArgs e)
         {
+         
             if (CheckData())
             {
                 string taiKhoan = textBox1.Text;
 
 
                 string matKhau = textBox2.Text;
-                string ten = textBox3.Text;
-                string quyen = "Người dùng";//mac định thêm dô là người dùng
+                int maGV = (comboBox1.SelectedItem as DTO_QLNT.GiaoVien).MaGiaoVien;
+
+                string quyen = "giáo viên";//mac định thêm dô là người dùng
                 // tui để mặc định mã gv = 2 á , còn ông muốn để giá trị khác thì còn cái textbox tên t chưa xài á cũng chưa đổi tên lun :v
-                SuaUsers(Id, taiKhoan, matKhau, 2, quyen);
+                SuaUsers(Id, taiKhoan, matKhau, maGV, quyen);
 
                 this.Dispose();
             }
             else this.Dispose();
+        }
+        private void LoadTenGvtoCombobox()
+        {
+            comboBox1.DataSource = GiaoVienBUS.Instance.GetListGiaoVien();
+            comboBox1.DisplayMember = "HOTEN";
+           //comboBox1.ValueMember = "MAGV";
+        }
+
+        private void comboBox1_SelectedIndexChanged(object sender, EventArgs e)
+        {
+            
         }
     }
 }
