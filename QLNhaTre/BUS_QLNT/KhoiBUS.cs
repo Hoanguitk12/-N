@@ -2,6 +2,7 @@
 using DTO_QLNT;
 using System;
 using System.Collections.Generic;
+using System.Data;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
@@ -20,6 +21,18 @@ namespace BUS_QLNT
         public List<Khoi> GetKhoi()
         {
             return KhoiDAL.Instance.GetKhoi();
+        }
+        public DataTable GetKhoitodgv()
+        {
+            return KhoiDAL.Instance.GetKhoitodgv();
+        }
+        public bool SuaKhoi(int makhoi, int sstd)
+        {
+            return KhoiDAL.Instance.SuaKhoi(makhoi, sstd);
+        }
+        public DataTable GetKhoiByMaKhoi(int maKhoi)
+        {
+            return KhoiDAL.Instance.GetKhoiByMaKhoi(maKhoi);
         }
 
     }

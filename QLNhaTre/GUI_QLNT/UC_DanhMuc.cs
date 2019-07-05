@@ -18,7 +18,7 @@ namespace GUI_QLNT
         public UC_DanhMuc()
         {
             InitializeComponent();
-        
+
         }
 
         private void button3_Click(object sender, EventArgs e)
@@ -77,7 +77,15 @@ namespace GUI_QLNT
             gridLop.Columns[4].HeaderText = "Năm học";
 
         }
-
+        private void LoadKhoiToDGV()
+        {
+            gridKhoi.DataSource = KhoiBUS.Instance.GetKhoitodgv();
+            gridKhoi.Columns[1].Visible = false;
+            gridKhoi.Columns[2].HeaderText = "Tên khối";
+            gridKhoi.Columns[2].ReadOnly = true;
+            gridKhoi.Columns[3].HeaderText = "Sỉ số tối đa";
+            
+        }
         /*private void dgvNamHoc_RowPostPaint(object sender, DataGridViewRowPostPaintEventArgs e)
         {
             dgvNamHoc.Rows[e.RowIndex].Cells[0].Value = (e.RowIndex + 1).ToString();
@@ -88,6 +96,7 @@ namespace GUI_QLNT
             LoadNamHocToDGV();
             LoadDSNDtodtgv();
             LoadLopToDGV();
+            LoadKhoiToDGV();
         }
 
         private void button1_Click(object sender, EventArgs e)
@@ -151,7 +160,7 @@ namespace GUI_QLNT
 
         private void btnXoaN_Click(object sender, EventArgs e)
         {
-            if (dgvNamHoc.SelectedRows.Count>0)
+            if (dgvNamHoc.SelectedRows.Count > 0)
             {
                 bool kq = false;
                 DialogResult dr = MessageBox.Show(this, "Thao tác này không thể hoàn tác.\nXóa?", "Cảnh báo!", MessageBoxButtons.YesNo, MessageBoxIcon.Warning);
@@ -171,7 +180,7 @@ namespace GUI_QLNT
                         {
                             MessageBox.Show("Không thể xóa năm học đang sử dụng");
                         }
-                       
+
 
                     }
                     finally
@@ -185,8 +194,8 @@ namespace GUI_QLNT
                             MessageBox.Show("Xóa không thành công!", "Thông báo", MessageBoxButtons.OK, MessageBoxIcon.Error);
                     }
 
-                   
-                } 
+
+                }
             }
             else
             {
@@ -220,7 +229,7 @@ namespace GUI_QLNT
         private void btnXoaL_Click(object sender, EventArgs e)
         {
 
-            if (gridLop.SelectedRows.Count >0)
+            if (gridLop.SelectedRows.Count > 0)
             {
                 DialogResult dr = MessageBox.Show(this, "Thao tác này sẽ xóa tất cả dữ liệu trong lớp.\nXóa?", "Cảnh báo!", MessageBoxButtons.OKCancel, MessageBoxIcon.Warning);
                 if (dr == DialogResult.Yes)
@@ -253,5 +262,57 @@ namespace GUI_QLNT
         {
             dgvNamHoc.Rows[e.RowIndex].Cells[0].Value = (e.RowIndex + 1).ToString();
         }
+
+        private void gridKhoi_RowPostPaint(object sender, DataGridViewRowPostPaintEventArgs e)
+        {
+            gridKhoi.Rows[e.RowIndex].Cells[0].Value = (e.RowIndex + 1).ToString();
+        }
+
+        private void btn_Click(object sender, EventArgs e)//button cập nhật khối
+        {
+
+            System.Data.DataTable dt = ((System.Data.DataTable)gridKhoi.DataSource).GetChanges(DataRowState.Modified);
+            if (dt != null)
+            {
+                var changedRows = ((System.Data.DataTable)gridKhoi.DataSource).GetChanges(DataRowState.Modified).Rows;
+
+                foreach (DataRow row in changedRows)
+                {
+                    int sstd = int.Parse(row["SSTOIDA"].ToString());
+                    int maKhoi = (int)row["MAKHOI"];
+                    KhoiBUS.Instance.SuaKhoi(maKhoi, sstd);
+                    MessageBox.Show("Đã cập nhật", "Thông báo", MessageBoxButtons.OK, MessageBoxIcon.Information);
+                    LoadKhoiToDGV();
+                }
+            }
+            else
+            {
+                MessageBox.Show("Không có thay đổi", "Thông báo", MessageBoxButtons.OK, MessageBoxIcon.Information);
+            }
+        }
+
+        private void CellOnlyNumber_KeyPress(object sender, KeyPressEventArgs e)
+        {
+            if (!char.IsControl(e.KeyChar) && !char.IsDigit(e.KeyChar) && e.KeyChar != '.')
+            {
+                e.Handled = true;
+            }
+        }
+
+       
+        private void gridKhoi_EditingControlShowing(object sender, DataGridViewEditingControlShowingEventArgs e)
+        {
+            e.Control.KeyPress -= new KeyPressEventHandler(CellOnlyNumber_KeyPress);
+            if (gridKhoi.CurrentCell.ColumnIndex ==  3)
+            {
+                System.Windows.Forms.TextBox tb = e.Control as System.Windows.Forms.TextBox;
+                if (tb != null)
+                {
+                    tb.KeyPress += new KeyPressEventHandler(CellOnlyNumber_KeyPress);
+                }
+            }
+        }
+        
     }
 }
+

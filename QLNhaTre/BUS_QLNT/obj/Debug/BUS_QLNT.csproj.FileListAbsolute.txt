@@ -61,3 +61,13 @@ D:\av3\QuanLyNhaTre-Hocsinh\QLNhaTre\BUS_QLNT\obj\Debug\BUS_QLNT.csprojResolveAs
 D:\av3\QuanLyNhaTre-Hocsinh\QLNhaTre\BUS_QLNT\obj\Debug\BUS_QLNT.csproj.CoreCompileInputs.cache
 D:\av3\QuanLyNhaTre-Hocsinh\QLNhaTre\BUS_QLNT\obj\Debug\BUS_QLNT.dll
 D:\av3\QuanLyNhaTre-Hocsinh\QLNhaTre\BUS_QLNT\obj\Debug\BUS_QLNT.pdb
+C:\Users\ASUS\Documents\GitHub\-N\QLNhaTre\BUS_QLNT\bin\Debug\BUS_QLNT.dll
+C:\Users\ASUS\Documents\GitHub\-N\QLNhaTre\BUS_QLNT\bin\Debug\BUS_QLNT.pdb
+C:\Users\ASUS\Documents\GitHub\-N\QLNhaTre\BUS_QLNT\bin\Debug\DAL_QLNT.dll
+C:\Users\ASUS\Documents\GitHub\-N\QLNhaTre\BUS_QLNT\bin\Debug\DTO_QLNT.dll
+C:\Users\ASUS\Documents\GitHub\-N\QLNhaTre\BUS_QLNT\bin\Debug\DAL_QLNT.pdb
+C:\Users\ASUS\Documents\GitHub\-N\QLNhaTre\BUS_QLNT\bin\Debug\DTO_QLNT.pdb
+C:\Users\ASUS\Documents\GitHub\-N\QLNhaTre\BUS_QLNT\obj\Debug\BUS_QLNT.csprojResolveAssemblyReference.cache
+C:\Users\ASUS\Documents\GitHub\-N\QLNhaTre\BUS_QLNT\obj\Debug\BUS_QLNT.csproj.CoreCompileInputs.cache
+C:\Users\ASUS\Documents\GitHub\-N\QLNhaTre\BUS_QLNT\obj\Debug\BUS_QLNT.dll
+C:\Users\ASUS\Documents\GitHub\-N\QLNhaTre\BUS_QLNT\obj\Debug\BUS_QLNT.pdb
