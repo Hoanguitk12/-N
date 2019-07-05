@@ -43,6 +43,7 @@
             this.dtpkNgaySinh = new System.Windows.Forms.DateTimePicker();
             this.txtDiaChi = new System.Windows.Forms.TextBox();
             this.label4 = new System.Windows.Forms.Label();
+            this.label11 = new System.Windows.Forms.Label();
             this.label6 = new System.Windows.Forms.Label();
             this.label7 = new System.Windows.Forms.Label();
             this.label5 = new System.Windows.Forms.Label();
@@ -57,7 +58,7 @@
             this.txtHoTenCha = new System.Windows.Forms.TextBox();
             this.label2 = new System.Windows.Forms.Label();
             this.btnThem = new System.Windows.Forms.Button();
-            this.label11 = new System.Windows.Forms.Label();
+            
             this.cbNamHoc = new System.Windows.Forms.ComboBox();
             this.groupBox1.SuspendLayout();
             this.groupBox2.SuspendLayout();
@@ -127,6 +128,7 @@
             this.txtHoTen.Name = "txtHoTen";
             this.txtHoTen.Size = new System.Drawing.Size(280, 20);
             this.txtHoTen.TabIndex = 4;
+            this.txtHoTen.Validated += new System.EventHandler(this.txtHoTen_Validated);
             // 
             // groupBox1
             // 
@@ -151,6 +153,16 @@
             this.groupBox1.TabIndex = 5;
             this.groupBox1.TabStop = false;
             this.groupBox1.Text = "Thông tin học sinh";
+            // 
+            // cbNamHoc
+            // 
+            this.cbNamHoc.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
+            this.cbNamHoc.FormattingEnabled = true;
+            this.cbNamHoc.Location = new System.Drawing.Point(97, 119);
+            this.cbNamHoc.Name = "cbNamHoc";
+            this.cbNamHoc.Size = new System.Drawing.Size(106, 21);
+            this.cbNamHoc.TabIndex = 7;
+            this.cbNamHoc.SelectedIndexChanged += new System.EventHandler(this.cbNamHoc_SelectedIndexChanged);
             // 
             // cbLop
             // 
@@ -214,6 +226,15 @@
             this.label4.Size = new System.Drawing.Size(53, 13);
             this.label4.TabIndex = 3;
             this.label4.Text = "Giới tính: ";
+            // 
+            // label11
+            // 
+            this.label11.AutoSize = true;
+            this.label11.Location = new System.Drawing.Point(38, 122);
+            this.label11.Name = "label11";
+            this.label11.Size = new System.Drawing.Size(53, 13);
+            this.label11.TabIndex = 3;
+            this.label11.Text = "Năm học:";
             // 
             // label6
             // 
@@ -306,6 +327,7 @@
             this.txtHoTenMe.Name = "txtHoTenMe";
             this.txtHoTenMe.Size = new System.Drawing.Size(279, 20);
             this.txtHoTenMe.TabIndex = 4;
+            this.txtHoTenMe.Validated += new System.EventHandler(this.txtHoTenMe_Validated);
             // 
             // label9
             // 
@@ -322,6 +344,7 @@
             this.txtHoTenCha.Name = "txtHoTenCha";
             this.txtHoTenCha.Size = new System.Drawing.Size(279, 20);
             this.txtHoTenCha.TabIndex = 4;
+            this.txtHoTenCha.Validated += new System.EventHandler(this.txtHoTenCha_Validated);
             // 
             // label2
             // 
@@ -344,25 +367,6 @@
             this.btnThem.Text = "Thêm";
             this.btnThem.UseVisualStyleBackColor = false;
             this.btnThem.Click += new System.EventHandler(this.btnThem_Click);
-            // 
-            // label11
-            // 
-            this.label11.AutoSize = true;
-            this.label11.Location = new System.Drawing.Point(38, 122);
-            this.label11.Name = "label11";
-            this.label11.Size = new System.Drawing.Size(53, 13);
-            this.label11.TabIndex = 3;
-            this.label11.Text = "Năm học:";
-            // 
-            // cbNamHoc
-            // 
-            this.cbNamHoc.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
-            this.cbNamHoc.FormattingEnabled = true;
-            this.cbNamHoc.Location = new System.Drawing.Point(97, 119);
-            this.cbNamHoc.Name = "cbNamHoc";
-            this.cbNamHoc.Size = new System.Drawing.Size(106, 21);
-            this.cbNamHoc.TabIndex = 7;
-            this.cbNamHoc.SelectedIndexChanged += new System.EventHandler(this.cbNamHoc_SelectedIndexChanged);
             // 
             // frmThemHS
             // 

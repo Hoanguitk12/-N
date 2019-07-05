@@ -34,6 +34,26 @@ namespace DAL_QLNT
             return list;
         }
 
+        public DataTable GetHocSinh(int malop)
+        {
+            string query = string.Format("SELECT MAHS,HOTEN,GIOITINH,NGAYSINH FROM HOCSINH WHERE MALOP={0} ORDER BY HOTEN", malop);
+            DataTable data = DataProvider.Instance.ExecuteQuery(query);
+            return data;
+        }
+
+        public DataTable GetHocSinhByKeyWord(string keyword)
+        {
+            string query = string.Empty;
+            query += " SELECT HOTEN, GIOITINH, NGAYSINH, LOP.TENLOP, KHOILOP.TENKHOI, NAMHOC.NAMBDKT, NGAYVAOHOC, DIACHI, HOTENCHA, SDTCHA, HOTENME, SDTME ";
+            query += " FROM HOCSINH, LOP, NAMHOC, KHOILOP";
+            query += string.Format(" WHERE HOCSINH.MALOP=LOP.MALOP AND LOP.MAKHOI= KHOILOP.MAKHOI AND LOP.MANAMHOC=NAMHOC.MANAMHOC AND (HOTEN LIKE CONCAT('%',N'{0}','%'))",keyword);
+            
+           
+            DataTable data = DataProvider.Instance.ExecuteQuery(query);
+            return data;
+        }
+
+
         public HocSinh GetHocSinhByMaHS(int mahs)
         {
             string query = string.Format("SELECT * FROM HOCSINH WHERE MAHS={0}", mahs);

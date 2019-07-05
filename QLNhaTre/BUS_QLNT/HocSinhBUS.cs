@@ -12,12 +12,15 @@ namespace BUS_QLNT
     {
         private static HocSinhBUS instance;
 
+        private HocSinhBUS() {  } 
+
         public static HocSinhBUS Instance
         {
             get { if (instance == null) instance = new HocSinhBUS(); return HocSinhBUS.instance; }
             private set { HocSinhBUS.instance = value; }
         }
 
+    
 
 
         public List<HocSinh> GetHocSinhByMaLop(int malop)
@@ -30,7 +33,15 @@ namespace BUS_QLNT
             return HocSinhDAL.Instance.GetHocSinhByMaHS(mahs);
         }
 
+        public DataTable GetHocSinh(int malop)
+        {
+            return HocSinhDAL.Instance.GetHocSinh(malop);
+        }
 
+        public DataTable GetHocSinhByKeyWord(string keyword)
+        {
+            return HocSinhDAL.Instance.GetHocSinhByKeyWord(keyword);
+        }
 
         public bool ThemHocSinh(string ten, string gioitinh, string ngaysinh, int malop, string ngayvaohoc, string diachi, string tencha, string sdtcha, string tenme, string sdtme)
         {

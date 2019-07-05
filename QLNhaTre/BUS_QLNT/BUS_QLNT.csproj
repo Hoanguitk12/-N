@@ -43,10 +43,12 @@
   <ItemGroup>
     <Compile Include="GiaoVienBUS.cs" />
     <Compile Include="HocSinhBUS.cs" />
+    <Compile Include="KhoiBUS.cs" />
     <Compile Include="LopBUS.cs" />
     <Compile Include="NamHocBUS.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="UsersBUS.cs" />
+    <Compile Include="SucKhoeBUS.cs" />
+    <Compile Include="NguoiDungBUS.cs" />
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\DAL_QLNT\DAL_QLNT.csproj">

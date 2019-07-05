@@ -20,7 +20,7 @@ namespace DAL_QLNT
 
         private DataProvider() { }
 
-        private string connectionSTR = "Data Source=DESKTOP-N3C8F8L\\HOANGUITK12;Initial Catalog=QLNhaTre111;Integrated Security=True";
+        private string connectionSTR = "Data Source=DESKTOP-N3C8F8L\\HOANGUITK12;Initial Catalog=QLNhaTre;Integrated Security=True";
 
         public DataTable ExecuteQuery(string query, object[] parameter = null)
         {

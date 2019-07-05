@@ -25,7 +25,25 @@ namespace BUS_QLNT
         {
             return NamHocDAL.Instance.GetNamHoc();
         }
-
+        public NamHoc GetNamHocByMaNH(int maNH)
+        {
+            return NamHocDAL.Instance.GetNamHocByMaNH(maNH);
+        }
+        public bool ThemNamHoc(string NamBD, string NamKT)
+        {
+            bool kq = NamHocDAL.Instance.ThemNamHoc(NamBD, NamKT);
+            return kq;
+        }
+        public bool SuaNamHoc(int MaNH, string NamBD, string NamKT)
+        {
+            bool kq = NamHocDAL.Instance.SuaNamHoc(MaNH, NamBD, NamKT);
+            return kq;
+        }
+        public bool XoaNamHoc(int MaNH)
+        {
+            bool kq = NamHocDAL.Instance.XoaNamHoc(MaNH);
+            return kq;
+        }
 
     }
 }

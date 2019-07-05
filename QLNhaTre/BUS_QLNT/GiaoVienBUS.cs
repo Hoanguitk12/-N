@@ -3,12 +3,13 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
-using DAL_QLNT;
 using DTO_QLNT;
+using DAL_QLNT;
+using System.Data;
 
 namespace BUS_QLNT
 {
-   public class GiaoVienBUS
+    public class GiaoVienBUS
     {
         private static GiaoVienBUS instance;
 
@@ -18,36 +19,46 @@ namespace BUS_QLNT
             private set { GiaoVienBUS.instance = value; }
         }
 
-        public List<DTO_QLNT.GiaoVien> GetLiistGiaoVien()
+        public List<GiaoVien> GetListGiaoVien()
         {
-            return DAL_QLNT.GiaoVien.Instance.GetLiistGiaoVien();
+            return GiaoVienDAL.Instance.GetListGiaoVien();
         }
 
-
-
-        public DTO_QLNT.GiaoVien GetGiaoVien()
+        public DataTable GetGiaoVien()
         {
-            return DAL_QLNT.GiaoVien.Instance.GetGiaoVien();
+            return GiaoVienDAL.Instance.GetGiaoVien();
         }
-        public DTO_QLNT.GiaoVien GetGiaoVienByMaGV(int maGV)
+
+        public DataTable GetGiaoVien(string query)
         {
-            return DAL_QLNT.GiaoVien.Instance.GetGiaoVienByMaGV(maGV);
+            return GiaoVienDAL.Instance.GetGiaoVien(query);
         }
-        public bool ThemGiaoVien( string hoTen, string gioiTinh, string ngaySinh, string danToc, string diaChi, string sdt, string trinhDo, string ngayVaoLam, string tonGiao)
+
+        public GiaoVien GetGiaoVienByMaGV(int maGV)
         {
-            bool kq = DAL_QLNT.GiaoVien.Instance.ThemGiaoVien(hoTen, gioiTinh, ngaySinh ,  danToc,  diaChi,  sdt,  trinhDo, ngayVaoLam, tonGiao);
+            return GiaoVienDAL.Instance.GetGiaoVienByMaGV(maGV);
+        }
+        public bool ThemGiaoVien(string hoTen, string gioiTinh, string ngaySinh, string danToc, string diaChi, string sdt, string trinhDo, string ngayVaoLam, string tonGiao)
+        {
+            bool kq = GiaoVienDAL.Instance.ThemGiaoVien(hoTen, gioiTinh, ngaySinh, danToc, diaChi, sdt, trinhDo, ngayVaoLam, tonGiao);
             return kq;
         }
 
-        public bool SuaGiaoVien(int maGiaoVien, string hoTen, string gioiTinh, string ngaySinh, string danToc, string diaChi, string sdt, string trinhDo, string ngayVaoLam,int maLop, string tonGiao)
+        public bool SuaGiaoVien(int maGiaoVien, string hoTen, string gioiTinh, string ngaySinh, string danToc, string diaChi, string sdt, string trinhDo, string ngayVaoLam, string tonGiao)
         {
-            bool kq = DAL_QLNT.GiaoVien.Instance.SuaGiaoVien( maGiaoVien,  hoTen,  gioiTinh,  ngaySinh,  danToc, diaChi,  sdt,  trinhDo,  ngayVaoLam, maLop, tonGiao);
+            bool kq = GiaoVienDAL.Instance.SuaGiaoVien(maGiaoVien, hoTen, gioiTinh, ngaySinh, danToc, diaChi, sdt, trinhDo, ngayVaoLam, tonGiao);
             return kq;
         }
 
         public bool XoaGiaoVien(int maGv)
         {
-            bool kq = DAL_QLNT.GiaoVien.Instance.XoaGiaoVien(maGv);
+            bool kq = GiaoVienDAL.Instance.XoaGiaoVien(maGv);
+            return kq;
+        }
+
+        public bool PhanCongGiaoVien(int magv,int malop)
+        {
+            bool kq = GiaoVienDAL.Instance.PhanCongGiaoVien(magv,malop);
             return kq;
         }
     }

@@ -50,6 +50,8 @@
             this.label5 = new System.Windows.Forms.Label();
             this.label3 = new System.Windows.Forms.Label();
             this.groupBox1 = new System.Windows.Forms.GroupBox();
+            this.cbNamHoc = new System.Windows.Forms.ComboBox();
+            this.label11 = new System.Windows.Forms.Label();
             this.label7 = new System.Windows.Forms.Label();
             this.label1 = new System.Windows.Forms.Label();
             this.btnHuy = new System.Windows.Forms.Button();
@@ -57,8 +59,6 @@
             this.panel3 = new System.Windows.Forms.Panel();
             this.panel2 = new System.Windows.Forms.Panel();
             this.panel1 = new System.Windows.Forms.Panel();
-            this.cbNamHoc = new System.Windows.Forms.ComboBox();
-            this.label11 = new System.Windows.Forms.Label();
             this.groupBox2.SuspendLayout();
             this.groupBox1.SuspendLayout();
             this.SuspendLayout();
@@ -76,6 +76,7 @@
             this.txtHoTenMe.Name = "txtHoTenMe";
             this.txtHoTenMe.Size = new System.Drawing.Size(280, 20);
             this.txtHoTenMe.TabIndex = 4;
+            this.txtHoTenMe.Validated += new System.EventHandler(this.txtHoTenMe_Validated);
             // 
             // label9
             // 
@@ -105,6 +106,7 @@
             this.txtHoTenCha.Name = "txtHoTenCha";
             this.txtHoTenCha.Size = new System.Drawing.Size(280, 20);
             this.txtHoTenCha.TabIndex = 4;
+            this.txtHoTenCha.Validated += new System.EventHandler(this.txtHoTenCha_Validated);
             // 
             // label2
             // 
@@ -121,6 +123,7 @@
             this.txtHoTen.Name = "txtHoTen";
             this.txtHoTen.Size = new System.Drawing.Size(280, 20);
             this.txtHoTen.TabIndex = 4;
+            this.txtHoTen.Validated += new System.EventHandler(this.txtHoTen_Validated);
             // 
             // label8
             // 
@@ -280,6 +283,25 @@
             this.groupBox1.TabStop = false;
             this.groupBox1.Text = "Thông tin học sinh";
             // 
+            // cbNamHoc
+            // 
+            this.cbNamHoc.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
+            this.cbNamHoc.FormattingEnabled = true;
+            this.cbNamHoc.Location = new System.Drawing.Point(98, 119);
+            this.cbNamHoc.Name = "cbNamHoc";
+            this.cbNamHoc.Size = new System.Drawing.Size(106, 21);
+            this.cbNamHoc.TabIndex = 9;
+            this.cbNamHoc.SelectedIndexChanged += new System.EventHandler(this.cbNamHoc_SelectedIndexChanged);
+            // 
+            // label11
+            // 
+            this.label11.AutoSize = true;
+            this.label11.Location = new System.Drawing.Point(39, 122);
+            this.label11.Name = "label11";
+            this.label11.Size = new System.Drawing.Size(53, 13);
+            this.label11.TabIndex = 8;
+            this.label11.Text = "Năm học:";
+            // 
             // label7
             // 
             this.label7.AutoSize = true;
@@ -347,25 +369,6 @@
             this.panel1.Size = new System.Drawing.Size(446, 3);
             this.panel1.TabIndex = 7;
             // 
-            // cbNamHoc
-            // 
-            this.cbNamHoc.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
-            this.cbNamHoc.FormattingEnabled = true;
-            this.cbNamHoc.Location = new System.Drawing.Point(98, 119);
-            this.cbNamHoc.Name = "cbNamHoc";
-            this.cbNamHoc.Size = new System.Drawing.Size(106, 21);
-            this.cbNamHoc.TabIndex = 9;
-            this.cbNamHoc.SelectedIndexChanged += new System.EventHandler(this.cbNamHoc_SelectedIndexChanged);
-            // 
-            // label11
-            // 
-            this.label11.AutoSize = true;
-            this.label11.Location = new System.Drawing.Point(39, 122);
-            this.label11.Name = "label11";
-            this.label11.Size = new System.Drawing.Size(53, 13);
-            this.label11.TabIndex = 8;
-            this.label11.Text = "Năm học:";
-            // 
             // frmSuaHS
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -426,4 +429,5 @@
         private System.Windows.Forms.ComboBox cbNamHoc;
         private System.Windows.Forms.Label label11;
     }
+
 }

@@ -13,7 +13,6 @@ C:\Users\kdi69\Documents\GitHub\QuanLyNhaTre\QLNhaTre\GUI_QLNT\obj\Debug\GUI_QLN
 C:\Users\kdi69\Documents\GitHub\QuanLyNhaTre\QLNhaTre\GUI_QLNT\obj\Debug\GUI_QLNT.frmLogin.resources
 C:\Users\kdi69\Documents\GitHub\QuanLyNhaTre\QLNhaTre\GUI_QLNT\obj\Debug\GUI_QLNT.frmMain.resources
 C:\Users\kdi69\Documents\GitHub\QuanLyNhaTre\QLNhaTre\GUI_QLNT\obj\Debug\GUI_QLNT.Properties.Resources.resources
-C:\Users\kdi69\Documents\GitHub\QuanLyNhaTre\QLNhaTre\GUI_QLNT\obj\Debug\GUI_QLNT.UC_HeThong.resources
 C:\Users\kdi69\Documents\GitHub\QuanLyNhaTre\QLNhaTre\GUI_QLNT\obj\Debug\GUI_QLNT.UC_HocSinh.resources
 C:\Users\kdi69\Documents\GitHub\QuanLyNhaTre\QLNhaTre\GUI_QLNT\obj\Debug\GUI_QLNT.csproj.GenerateResource.cache
 C:\Users\kdi69\Documents\GitHub\QuanLyNhaTre\QLNhaTre\GUI_QLNT\obj\Debug\GUI_QLNT.csproj.CoreCompileInputs.cache
@@ -60,33 +59,133 @@ D:\QLNhaTre\GUI_QLNT\bin\Debug\BUS_QLNT.pdb
 D:\QLNhaTre\GUI_QLNT\bin\Debug\DTO_QLNT.pdb
 D:\QLNhaTre\GUI_QLNT\bin\Debug\DAL_QLNT.pdb
 D:\QLNhaTre\GUI_QLNT\obj\Debug\GUI_QLNT.csproj.CopyComplete
-D:\nmcnpm\QuanLyNhaTre-Hocsinh\QLNhaTre\GUI_QLNT\bin\Debug\GUI_QLNT.exe.config
-D:\nmcnpm\QuanLyNhaTre-Hocsinh\QLNhaTre\GUI_QLNT\bin\Debug\GUI_QLNT.exe
-D:\nmcnpm\QuanLyNhaTre-Hocsinh\QLNhaTre\GUI_QLNT\bin\Debug\GUI_QLNT.pdb
-D:\nmcnpm\QuanLyNhaTre-Hocsinh\QLNhaTre\GUI_QLNT\bin\Debug\BUS_QLNT.dll
-D:\nmcnpm\QuanLyNhaTre-Hocsinh\QLNhaTre\GUI_QLNT\bin\Debug\DTO_QLNT.dll
-D:\nmcnpm\QuanLyNhaTre-Hocsinh\QLNhaTre\GUI_QLNT\bin\Debug\MaterialSkin.dll
-D:\nmcnpm\QuanLyNhaTre-Hocsinh\QLNhaTre\GUI_QLNT\bin\Debug\MetroFramework.Design.dll
-D:\nmcnpm\QuanLyNhaTre-Hocsinh\QLNhaTre\GUI_QLNT\bin\Debug\MetroFramework.dll
-D:\nmcnpm\QuanLyNhaTre-Hocsinh\QLNhaTre\GUI_QLNT\bin\Debug\MetroFramework.Fonts.dll
-D:\nmcnpm\QuanLyNhaTre-Hocsinh\QLNhaTre\GUI_QLNT\bin\Debug\DAL_QLNT.dll
-D:\nmcnpm\QuanLyNhaTre-Hocsinh\QLNhaTre\GUI_QLNT\bin\Debug\BUS_QLNT.pdb
-D:\nmcnpm\QuanLyNhaTre-Hocsinh\QLNhaTre\GUI_QLNT\bin\Debug\DTO_QLNT.pdb
-D:\nmcnpm\QuanLyNhaTre-Hocsinh\QLNhaTre\GUI_QLNT\bin\Debug\DAL_QLNT.pdb
-D:\nmcnpm\QuanLyNhaTre-Hocsinh\QLNhaTre\GUI_QLNT\obj\Debug\GUI_QLNT.csprojResolveAssemblyReference.cache
-D:\nmcnpm\QuanLyNhaTre-Hocsinh\QLNhaTre\GUI_QLNT\obj\Debug\GUI_QLNT.frmLogin.resources
-D:\nmcnpm\QuanLyNhaTre-Hocsinh\QLNhaTre\GUI_QLNT\obj\Debug\GUI_QLNT.frmMain.resources
-D:\nmcnpm\QuanLyNhaTre-Hocsinh\QLNhaTre\GUI_QLNT\obj\Debug\GUI_QLNT.frmSuaGV.resources
-D:\nmcnpm\QuanLyNhaTre-Hocsinh\QLNhaTre\GUI_QLNT\obj\Debug\GUI_QLNT.frmSuaHS.resources
-D:\nmcnpm\QuanLyNhaTre-Hocsinh\QLNhaTre\GUI_QLNT\obj\Debug\GUI_QLNT.frmSuaND.resources
-D:\nmcnpm\QuanLyNhaTre-Hocsinh\QLNhaTre\GUI_QLNT\obj\Debug\GUI_QLNT.frmThemGV.resources
-D:\nmcnpm\QuanLyNhaTre-Hocsinh\QLNhaTre\GUI_QLNT\obj\Debug\GUI_QLNT.frmThemHS.resources
-D:\nmcnpm\QuanLyNhaTre-Hocsinh\QLNhaTre\GUI_QLNT\obj\Debug\GUI_QLNT.frmThemND.resources
-D:\nmcnpm\QuanLyNhaTre-Hocsinh\QLNhaTre\GUI_QLNT\obj\Debug\GUI_QLNT.Properties.Resources.resources
-D:\nmcnpm\QuanLyNhaTre-Hocsinh\QLNhaTre\GUI_QLNT\obj\Debug\GUI_QLNT.UC_GiaoVien.resources
-D:\nmcnpm\QuanLyNhaTre-Hocsinh\QLNhaTre\GUI_QLNT\obj\Debug\GUI_QLNT.UC_HeThong.resources
-D:\nmcnpm\QuanLyNhaTre-Hocsinh\QLNhaTre\GUI_QLNT\obj\Debug\GUI_QLNT.UC_HocSinh.resources
-D:\nmcnpm\QuanLyNhaTre-Hocsinh\QLNhaTre\GUI_QLNT\obj\Debug\GUI_QLNT.csproj.GenerateResource.Cache
-D:\nmcnpm\QuanLyNhaTre-Hocsinh\QLNhaTre\GUI_QLNT\obj\Debug\GUI_QLNT.csproj.CoreCompileInputs.cache
-D:\nmcnpm\QuanLyNhaTre-Hocsinh\QLNhaTre\GUI_QLNT\obj\Debug\GUI_QLNT.exe
-D:\nmcnpm\QuanLyNhaTre-Hocsinh\QLNhaTre\GUI_QLNT\obj\Debug\GUI_QLNT.pdb
+D:\mạch số\QuanLyNhaTre-Hocsinh\QLNhaTre\GUI_QLNT\bin\Debug\GUI_QLNT.exe.config
+D:\mạch số\QuanLyNhaTre-Hocsinh\QLNhaTre\GUI_QLNT\bin\Debug\GUI_QLNT.exe
+D:\mạch số\QuanLyNhaTre-Hocsinh\QLNhaTre\GUI_QLNT\bin\Debug\GUI_QLNT.pdb
+D:\mạch số\QuanLyNhaTre-Hocsinh\QLNhaTre\GUI_QLNT\bin\Debug\BUS_QLNT.dll
+D:\mạch số\QuanLyNhaTre-Hocsinh\QLNhaTre\GUI_QLNT\bin\Debug\DTO_QLNT.dll
+D:\mạch số\QuanLyNhaTre-Hocsinh\QLNhaTre\GUI_QLNT\bin\Debug\MaterialSkin.dll
+D:\mạch số\QuanLyNhaTre-Hocsinh\QLNhaTre\GUI_QLNT\bin\Debug\MetroFramework.Design.dll
+D:\mạch số\QuanLyNhaTre-Hocsinh\QLNhaTre\GUI_QLNT\bin\Debug\MetroFramework.dll
+D:\mạch số\QuanLyNhaTre-Hocsinh\QLNhaTre\GUI_QLNT\bin\Debug\MetroFramework.Fonts.dll
+D:\mạch số\QuanLyNhaTre-Hocsinh\QLNhaTre\GUI_QLNT\bin\Debug\DAL_QLNT.dll
+D:\mạch số\QuanLyNhaTre-Hocsinh\QLNhaTre\GUI_QLNT\bin\Debug\BUS_QLNT.pdb
+D:\mạch số\QuanLyNhaTre-Hocsinh\QLNhaTre\GUI_QLNT\bin\Debug\DTO_QLNT.pdb
+D:\mạch số\QuanLyNhaTre-Hocsinh\QLNhaTre\GUI_QLNT\bin\Debug\DAL_QLNT.pdb
+D:\mạch số\QuanLyNhaTre-Hocsinh\QLNhaTre\GUI_QLNT\obj\Debug\GUI_QLNT.csprojResolveAssemblyReference.cache
+D:\mạch số\QuanLyNhaTre-Hocsinh\QLNhaTre\GUI_QLNT\obj\Debug\GUI_QLNT.frmLogin.resources
+D:\mạch số\QuanLyNhaTre-Hocsinh\QLNhaTre\GUI_QLNT\obj\Debug\GUI_QLNT.frmMain.resources
+D:\mạch số\QuanLyNhaTre-Hocsinh\QLNhaTre\GUI_QLNT\obj\Debug\GUI_QLNT.frmSuaGV.resources
+D:\mạch số\QuanLyNhaTre-Hocsinh\QLNhaTre\GUI_QLNT\obj\Debug\GUI_QLNT.frmSuaHS.resources
+D:\mạch số\QuanLyNhaTre-Hocsinh\QLNhaTre\GUI_QLNT\obj\Debug\GUI_QLNT.frmSuaND.resources
+D:\mạch số\QuanLyNhaTre-Hocsinh\QLNhaTre\GUI_QLNT\obj\Debug\GUI_QLNT.frmThemGV.resources
+D:\mạch số\QuanLyNhaTre-Hocsinh\QLNhaTre\GUI_QLNT\obj\Debug\GUI_QLNT.frmThemHS.resources
+D:\mạch số\QuanLyNhaTre-Hocsinh\QLNhaTre\GUI_QLNT\obj\Debug\GUI_QLNT.frmThemND.resources
+D:\mạch số\QuanLyNhaTre-Hocsinh\QLNhaTre\GUI_QLNT\obj\Debug\GUI_QLNT.Properties.Resources.resources
+D:\mạch số\QuanLyNhaTre-Hocsinh\QLNhaTre\GUI_QLNT\obj\Debug\GUI_QLNT.UC_GiaoVien.resources
+D:\mạch số\QuanLyNhaTre-Hocsinh\QLNhaTre\GUI_QLNT\obj\Debug\GUI_QLNT.UC_HeThong.resources
+D:\mạch số\QuanLyNhaTre-Hocsinh\QLNhaTre\GUI_QLNT\obj\Debug\GUI_QLNT.UC_HocSinh.resources
+D:\mạch số\QuanLyNhaTre-Hocsinh\QLNhaTre\GUI_QLNT\obj\Debug\GUI_QLNT.csproj.GenerateResource.Cache
+D:\mạch số\QuanLyNhaTre-Hocsinh\QLNhaTre\GUI_QLNT\obj\Debug\GUI_QLNT.csproj.CoreCompileInputs.cache
+D:\mạch số\QuanLyNhaTre-Hocsinh\QLNhaTre\GUI_QLNT\obj\Debug\GUI_QLNT.exe
+D:\mạch số\QuanLyNhaTre-Hocsinh\QLNhaTre\GUI_QLNT\obj\Debug\GUI_QLNT.pdb
+C:\Users\ASUS\Documents\GitHub\-N\checkdataHS-GV-ND\GUI_QLNT\bin\Debug\GUI_QLNT.exe.config
+C:\Users\ASUS\Documents\GitHub\-N\checkdataHS-GV-ND\GUI_QLNT\bin\Debug\GUI_QLNT.exe
+C:\Users\ASUS\Documents\GitHub\-N\checkdataHS-GV-ND\GUI_QLNT\bin\Debug\GUI_QLNT.pdb
+C:\Users\ASUS\Documents\GitHub\-N\checkdataHS-GV-ND\GUI_QLNT\bin\Debug\BUS_QLNT.dll
+C:\Users\ASUS\Documents\GitHub\-N\checkdataHS-GV-ND\GUI_QLNT\bin\Debug\DTO_QLNT.dll
+C:\Users\ASUS\Documents\GitHub\-N\checkdataHS-GV-ND\GUI_QLNT\bin\Debug\MaterialSkin.dll
+C:\Users\ASUS\Documents\GitHub\-N\checkdataHS-GV-ND\GUI_QLNT\bin\Debug\MetroFramework.Design.dll
+C:\Users\ASUS\Documents\GitHub\-N\checkdataHS-GV-ND\GUI_QLNT\bin\Debug\MetroFramework.dll
+C:\Users\ASUS\Documents\GitHub\-N\checkdataHS-GV-ND\GUI_QLNT\bin\Debug\MetroFramework.Fonts.dll
+C:\Users\ASUS\Documents\GitHub\-N\checkdataHS-GV-ND\GUI_QLNT\bin\Debug\DAL_QLNT.dll
+C:\Users\ASUS\Documents\GitHub\-N\checkdataHS-GV-ND\GUI_QLNT\bin\Debug\BUS_QLNT.pdb
+C:\Users\ASUS\Documents\GitHub\-N\checkdataHS-GV-ND\GUI_QLNT\bin\Debug\DTO_QLNT.pdb
+C:\Users\ASUS\Documents\GitHub\-N\checkdataHS-GV-ND\GUI_QLNT\bin\Debug\DAL_QLNT.pdb
+C:\Users\ASUS\Documents\GitHub\-N\checkdataHS-GV-ND\GUI_QLNT\obj\Debug\GUI_QLNT.csprojResolveAssemblyReference.cache
+C:\Users\ASUS\Documents\GitHub\-N\checkdataHS-GV-ND\GUI_QLNT\obj\Debug\GUI_QLNT.frmLogin.resources
+C:\Users\ASUS\Documents\GitHub\-N\checkdataHS-GV-ND\GUI_QLNT\obj\Debug\GUI_QLNT.frmMain.resources
+C:\Users\ASUS\Documents\GitHub\-N\checkdataHS-GV-ND\GUI_QLNT\obj\Debug\GUI_QLNT.frmSuaGV.resources
+C:\Users\ASUS\Documents\GitHub\-N\checkdataHS-GV-ND\GUI_QLNT\obj\Debug\GUI_QLNT.frmSuaHS.resources
+C:\Users\ASUS\Documents\GitHub\-N\checkdataHS-GV-ND\GUI_QLNT\obj\Debug\GUI_QLNT.frmSuaND.resources
+C:\Users\ASUS\Documents\GitHub\-N\checkdataHS-GV-ND\GUI_QLNT\obj\Debug\GUI_QLNT.frmThemGV.resources
+C:\Users\ASUS\Documents\GitHub\-N\checkdataHS-GV-ND\GUI_QLNT\obj\Debug\GUI_QLNT.frmThemHS.resources
+C:\Users\ASUS\Documents\GitHub\-N\checkdataHS-GV-ND\GUI_QLNT\obj\Debug\GUI_QLNT.frmThemND.resources
+C:\Users\ASUS\Documents\GitHub\-N\checkdataHS-GV-ND\GUI_QLNT\obj\Debug\GUI_QLNT.Properties.Resources.resources
+C:\Users\ASUS\Documents\GitHub\-N\checkdataHS-GV-ND\GUI_QLNT\obj\Debug\GUI_QLNT.UC_GiaoVien.resources
+C:\Users\ASUS\Documents\GitHub\-N\checkdataHS-GV-ND\GUI_QLNT\obj\Debug\GUI_QLNT.UC_HeThong.resources
+C:\Users\ASUS\Documents\GitHub\-N\checkdataHS-GV-ND\GUI_QLNT\obj\Debug\GUI_QLNT.UC_HocSinh.resources
+C:\Users\ASUS\Documents\GitHub\-N\checkdataHS-GV-ND\GUI_QLNT\obj\Debug\GUI_QLNT.csproj.GenerateResource.Cache
+C:\Users\ASUS\Documents\GitHub\-N\checkdataHS-GV-ND\GUI_QLNT\obj\Debug\GUI_QLNT.csproj.CoreCompileInputs.cache
+C:\Users\ASUS\Documents\GitHub\-N\checkdataHS-GV-ND\GUI_QLNT\obj\Debug\GUI_QLNT.exe
+C:\Users\ASUS\Documents\GitHub\-N\checkdataHS-GV-ND\GUI_QLNT\obj\Debug\GUI_QLNT.pdb
+C:\Users\kdi69\Downloads\-N-master\-N-master\checkdataHS-GV-ND\GUI_QLNT\bin\Debug\GUI_QLNT.exe.config
+C:\Users\kdi69\Downloads\-N-master\-N-master\checkdataHS-GV-ND\GUI_QLNT\bin\Debug\GUI_QLNT.exe
+C:\Users\kdi69\Downloads\-N-master\-N-master\checkdataHS-GV-ND\GUI_QLNT\bin\Debug\GUI_QLNT.pdb
+C:\Users\kdi69\Downloads\-N-master\-N-master\checkdataHS-GV-ND\GUI_QLNT\bin\Debug\BUS_QLNT.dll
+C:\Users\kdi69\Downloads\-N-master\-N-master\checkdataHS-GV-ND\GUI_QLNT\bin\Debug\DTO_QLNT.dll
+C:\Users\kdi69\Downloads\-N-master\-N-master\checkdataHS-GV-ND\GUI_QLNT\bin\Debug\MaterialSkin.dll
+C:\Users\kdi69\Downloads\-N-master\-N-master\checkdataHS-GV-ND\GUI_QLNT\bin\Debug\MetroFramework.Design.dll
+C:\Users\kdi69\Downloads\-N-master\-N-master\checkdataHS-GV-ND\GUI_QLNT\bin\Debug\MetroFramework.dll
+C:\Users\kdi69\Downloads\-N-master\-N-master\checkdataHS-GV-ND\GUI_QLNT\bin\Debug\MetroFramework.Fonts.dll
+C:\Users\kdi69\Downloads\-N-master\-N-master\checkdataHS-GV-ND\GUI_QLNT\bin\Debug\DAL_QLNT.dll
+C:\Users\kdi69\Downloads\-N-master\-N-master\checkdataHS-GV-ND\GUI_QLNT\bin\Debug\BUS_QLNT.pdb
+C:\Users\kdi69\Downloads\-N-master\-N-master\checkdataHS-GV-ND\GUI_QLNT\bin\Debug\DTO_QLNT.pdb
+C:\Users\kdi69\Downloads\-N-master\-N-master\checkdataHS-GV-ND\GUI_QLNT\bin\Debug\DAL_QLNT.pdb
+C:\Users\kdi69\Downloads\-N-master\-N-master\checkdataHS-GV-ND\GUI_QLNT\obj\Debug\GUI_QLNT.csprojAssemblyReference.cache
+C:\Users\kdi69\Downloads\-N-master\-N-master\checkdataHS-GV-ND\GUI_QLNT\obj\Debug\GUI_QLNT.frmLogin.resources
+C:\Users\kdi69\Downloads\-N-master\-N-master\checkdataHS-GV-ND\GUI_QLNT\obj\Debug\GUI_QLNT.frmMain.resources
+C:\Users\kdi69\Downloads\-N-master\-N-master\checkdataHS-GV-ND\GUI_QLNT\obj\Debug\GUI_QLNT.frmSuaGV.resources
+C:\Users\kdi69\Downloads\-N-master\-N-master\checkdataHS-GV-ND\GUI_QLNT\obj\Debug\GUI_QLNT.frmSuaHS.resources
+C:\Users\kdi69\Downloads\-N-master\-N-master\checkdataHS-GV-ND\GUI_QLNT\obj\Debug\GUI_QLNT.frmSuaND.resources
+C:\Users\kdi69\Downloads\-N-master\-N-master\checkdataHS-GV-ND\GUI_QLNT\obj\Debug\GUI_QLNT.frmThemGV.resources
+C:\Users\kdi69\Downloads\-N-master\-N-master\checkdataHS-GV-ND\GUI_QLNT\obj\Debug\GUI_QLNT.frmThemHS.resources
+C:\Users\kdi69\Downloads\-N-master\-N-master\checkdataHS-GV-ND\GUI_QLNT\obj\Debug\GUI_QLNT.frmThemND.resources
+C:\Users\kdi69\Downloads\-N-master\-N-master\checkdataHS-GV-ND\GUI_QLNT\obj\Debug\GUI_QLNT.Properties.Resources.resources
+C:\Users\kdi69\Downloads\-N-master\-N-master\checkdataHS-GV-ND\GUI_QLNT\obj\Debug\GUI_QLNT.UC_GiaoVien.resources
+C:\Users\kdi69\Downloads\-N-master\-N-master\checkdataHS-GV-ND\GUI_QLNT\obj\Debug\GUI_QLNT.UC_HocSinh.resources
+C:\Users\kdi69\Downloads\-N-master\-N-master\checkdataHS-GV-ND\GUI_QLNT\obj\Debug\GUI_QLNT.csproj.GenerateResource.cache
+C:\Users\kdi69\Downloads\-N-master\-N-master\checkdataHS-GV-ND\GUI_QLNT\obj\Debug\GUI_QLNT.csproj.CoreCompileInputs.cache
+C:\Users\kdi69\Downloads\-N-master\-N-master\checkdataHS-GV-ND\GUI_QLNT\obj\Debug\GUI_QLNT.csproj.CopyComplete
+C:\Users\kdi69\Downloads\-N-master\-N-master\checkdataHS-GV-ND\GUI_QLNT\obj\Debug\GUI_QLNT.exe
+C:\Users\kdi69\Downloads\-N-master\-N-master\checkdataHS-GV-ND\GUI_QLNT\obj\Debug\GUI_QLNT.pdb
+C:\Users\kdi69\Downloads\-N-master\-N-master\checkdataHS-GV-ND\GUI_QLNT\obj\Debug\GUI_QLNT.UC_DanhMuc.resources
+C:\Users\kdi69\Documents\GitHub\QuanLyNhaTre\QLNhaTre\GUI_QLNT\obj\Debug\GUI_QLNT.UC_DanhMuc.resources
+C:\Users\kdi69\Documents\GitHub\QuanLyNhaTre\QLNhaTre\GUI_QLNT\obj\Debug\GUI_QLNT.UC_TimKiem.resources
+C:\Users\kdi69\Documents\GitHub\QuanLyNhaTre\QLNhaTre\GUI_QLNT\obj\Debug\GUI_QLNT.frmDMK.resources
+D:\av3\QuanLyNhaTre-Hocsinh\QLNhaTre\GUI_QLNT\bin\Debug\GUI_QLNT.exe.config
+D:\av3\QuanLyNhaTre-Hocsinh\QLNhaTre\GUI_QLNT\bin\Debug\GUI_QLNT.exe
+D:\av3\QuanLyNhaTre-Hocsinh\QLNhaTre\GUI_QLNT\bin\Debug\GUI_QLNT.pdb
+D:\av3\QuanLyNhaTre-Hocsinh\QLNhaTre\GUI_QLNT\bin\Debug\BUS_QLNT.dll
+D:\av3\QuanLyNhaTre-Hocsinh\QLNhaTre\GUI_QLNT\bin\Debug\DTO_QLNT.dll
+D:\av3\QuanLyNhaTre-Hocsinh\QLNhaTre\GUI_QLNT\bin\Debug\MaterialSkin.dll
+D:\av3\QuanLyNhaTre-Hocsinh\QLNhaTre\GUI_QLNT\bin\Debug\MetroFramework.Design.dll
+D:\av3\QuanLyNhaTre-Hocsinh\QLNhaTre\GUI_QLNT\bin\Debug\MetroFramework.dll
+D:\av3\QuanLyNhaTre-Hocsinh\QLNhaTre\GUI_QLNT\bin\Debug\MetroFramework.Fonts.dll
+D:\av3\QuanLyNhaTre-Hocsinh\QLNhaTre\GUI_QLNT\bin\Debug\DAL_QLNT.dll
+D:\av3\QuanLyNhaTre-Hocsinh\QLNhaTre\GUI_QLNT\bin\Debug\BUS_QLNT.pdb
+D:\av3\QuanLyNhaTre-Hocsinh\QLNhaTre\GUI_QLNT\bin\Debug\DTO_QLNT.pdb
+D:\av3\QuanLyNhaTre-Hocsinh\QLNhaTre\GUI_QLNT\bin\Debug\DAL_QLNT.pdb
+D:\av3\QuanLyNhaTre-Hocsinh\QLNhaTre\GUI_QLNT\obj\Debug\GUI_QLNT.csprojResolveAssemblyReference.cache
+D:\av3\QuanLyNhaTre-Hocsinh\QLNhaTre\GUI_QLNT\obj\Debug\GUI_QLNT.frmDMK.resources
+D:\av3\QuanLyNhaTre-Hocsinh\QLNhaTre\GUI_QLNT\obj\Debug\GUI_QLNT.frmLogin.resources
+D:\av3\QuanLyNhaTre-Hocsinh\QLNhaTre\GUI_QLNT\obj\Debug\GUI_QLNT.frmMain.resources
+D:\av3\QuanLyNhaTre-Hocsinh\QLNhaTre\GUI_QLNT\obj\Debug\GUI_QLNT.frmSuaGV.resources
+D:\av3\QuanLyNhaTre-Hocsinh\QLNhaTre\GUI_QLNT\obj\Debug\GUI_QLNT.frmSuaHS.resources
+D:\av3\QuanLyNhaTre-Hocsinh\QLNhaTre\GUI_QLNT\obj\Debug\GUI_QLNT.frmSuaND.resources
+D:\av3\QuanLyNhaTre-Hocsinh\QLNhaTre\GUI_QLNT\obj\Debug\GUI_QLNT.frmThemGV.resources
+D:\av3\QuanLyNhaTre-Hocsinh\QLNhaTre\GUI_QLNT\obj\Debug\GUI_QLNT.frmThemHS.resources
+D:\av3\QuanLyNhaTre-Hocsinh\QLNhaTre\GUI_QLNT\obj\Debug\GUI_QLNT.frmThemND.resources
+D:\av3\QuanLyNhaTre-Hocsinh\QLNhaTre\GUI_QLNT\obj\Debug\GUI_QLNT.Properties.Resources.resources
+D:\av3\QuanLyNhaTre-Hocsinh\QLNhaTre\GUI_QLNT\obj\Debug\GUI_QLNT.UC_GiaoVien.resources
+D:\av3\QuanLyNhaTre-Hocsinh\QLNhaTre\GUI_QLNT\obj\Debug\GUI_QLNT.UC_DanhMuc.resources
+D:\av3\QuanLyNhaTre-Hocsinh\QLNhaTre\GUI_QLNT\obj\Debug\GUI_QLNT.UC_HocSinh.resources
+D:\av3\QuanLyNhaTre-Hocsinh\QLNhaTre\GUI_QLNT\obj\Debug\GUI_QLNT.UC_TimKiem.resources
+D:\av3\QuanLyNhaTre-Hocsinh\QLNhaTre\GUI_QLNT\obj\Debug\GUI_QLNT.csproj.GenerateResource.Cache
+D:\av3\QuanLyNhaTre-Hocsinh\QLNhaTre\GUI_QLNT\obj\Debug\GUI_QLNT.csproj.CoreCompileInputs.cache
+D:\av3\QuanLyNhaTre-Hocsinh\QLNhaTre\GUI_QLNT\obj\Debug\GUI_QLNT.exe
+D:\av3\QuanLyNhaTre-Hocsinh\QLNhaTre\GUI_QLNT\obj\Debug\GUI_QLNT.pdb
+D:\av3\QuanLyNhaTre-Hocsinh\QLNhaTre\GUI_QLNT\obj\Debug\GUI_QLNT.frmSuaLop.resources
+D:\av3\QuanLyNhaTre-Hocsinh\QLNhaTre\GUI_QLNT\obj\Debug\GUI_QLNT.frmSuaNamHoc.resources
+D:\av3\QuanLyNhaTre-Hocsinh\QLNhaTre\GUI_QLNT\obj\Debug\GUI_QLNT.frmThemLop.resources
+D:\av3\QuanLyNhaTre-Hocsinh\QLNhaTre\GUI_QLNT\obj\Debug\GUI_QLNT.frmThemNamHoc.resources

@@ -45,6 +45,10 @@
     <Reference Include="MetroFramework.Fonts, Version=1.4.0.0, Culture=neutral, PublicKeyToken=5f91a84759bf584a, processorArchitecture=MSIL">
       <HintPath>..\packages\MetroModernUI.1.4.0.0\lib\net\MetroFramework.Fonts.dll</HintPath>
     </Reference>
+    <Reference Include="Microsoft.Office.Interop.Excel, Version=15.0.0.0, Culture=neutral, PublicKeyToken=71e9bce111e9429c, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.Office.Interop.Excel.15.0.4795.1000\lib\net20\Microsoft.Office.Interop.Excel.dll</HintPath>
+      <EmbedInteropTypes>True</EmbedInteropTypes>
+    </Reference>
     <Reference Include="System" />
     <Reference Include="System.Core" />
     <Reference Include="System.Xml.Linq" />
@@ -58,6 +62,12 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="frmDMK.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmDMK.Designer.cs">
+      <DependentUpon>frmDMK.cs</DependentUpon>
+    </Compile>
     <Compile Include="frmLogin.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -82,6 +92,18 @@
     <Compile Include="frmSuaHS.Designer.cs">
       <DependentUpon>frmSuaHS.cs</DependentUpon>
     </Compile>
+    <Compile Include="frmSuaLop.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmSuaLop.designer.cs">
+      <DependentUpon>frmSuaLop.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmSuaNamHoc.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmSuaNamHoc.designer.cs">
+      <DependentUpon>frmSuaNamHoc.cs</DependentUpon>
+    </Compile>
     <Compile Include="frmSuaND.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -100,6 +122,18 @@
     <Compile Include="frmThemHS.Designer.cs">
       <DependentUpon>frmThemHS.cs</DependentUpon>
     </Compile>
+    <Compile Include="frmThemLop.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmThemLop.designer.cs">
+      <DependentUpon>frmThemLop.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmThemNamHoc.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmThemNamHoc.designer.cs">
+      <DependentUpon>frmThemNamHoc.cs</DependentUpon>
+    </Compile>
     <Compile Include="frmThemND.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -114,11 +148,11 @@
     <Compile Include="UC_GiaoVien.Designer.cs">
       <DependentUpon>UC_GiaoVien.cs</DependentUpon>
     </Compile>
-    <Compile Include="UC_HeThong.cs">
+    <Compile Include="UC_DanhMuc.cs">
       <SubType>UserControl</SubType>
     </Compile>
-    <Compile Include="UC_HeThong.Designer.cs">
-      <DependentUpon>UC_HeThong.cs</DependentUpon>
+    <Compile Include="UC_DanhMuc.Designer.cs">
+      <DependentUpon>UC_DanhMuc.cs</DependentUpon>
     </Compile>
     <Compile Include="UC_HocSinh.cs">
       <SubType>UserControl</SubType>
@@ -126,6 +160,15 @@
     <Compile Include="UC_HocSinh.Designer.cs">
       <DependentUpon>UC_HocSinh.cs</DependentUpon>
     </Compile>
+    <Compile Include="UC_TimKiem.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UC_TimKiem.Designer.cs">
+      <DependentUpon>UC_TimKiem.cs</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="frmDMK.resx">
+      <DependentUpon>frmDMK.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="frmLogin.resx">
       <DependentUpon>frmLogin.cs</DependentUpon>
     </EmbeddedResource>
@@ -138,6 +181,12 @@
     <EmbeddedResource Include="frmSuaHS.resx">
       <DependentUpon>frmSuaHS.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="frmSuaLop.resx">
+      <DependentUpon>frmSuaLop.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmSuaNamHoc.resx">
+      <DependentUpon>frmSuaNamHoc.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="frmSuaND.resx">
       <DependentUpon>frmSuaND.cs</DependentUpon>
     </EmbeddedResource>
@@ -146,6 +195,12 @@
     </EmbeddedResource>
     <EmbeddedResource Include="frmThemHS.resx">
       <DependentUpon>frmThemHS.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmThemLop.resx">
+      <DependentUpon>frmThemLop.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmThemNamHoc.resx">
+      <DependentUpon>frmThemNamHoc.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="frmThemND.resx">
       <DependentUpon>frmThemND.cs</DependentUpon>
@@ -162,11 +217,14 @@
     <EmbeddedResource Include="UC_GiaoVien.resx">
       <DependentUpon>UC_GiaoVien.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="UC_HeThong.resx">
-      <DependentUpon>UC_HeThong.cs</DependentUpon>
+    <EmbeddedResource Include="UC_DanhMuc.resx">
+      <DependentUpon>UC_DanhMuc.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="UC_HocSinh.resx">
       <DependentUpon>UC_HocSinh.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UC_TimKiem.resx">
+      <DependentUpon>UC_TimKiem.cs</DependentUpon>
     </EmbeddedResource>
     <None Include="packages.config" />
     <None Include="Properties\Settings.settings">
