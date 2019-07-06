@@ -190,6 +190,8 @@
             // 
             // dgvNamHoc
             // 
+            this.dgvNamHoc.AllowUserToAddRows = false;
+            this.dgvNamHoc.AllowUserToDeleteRows = false;
             this.dgvNamHoc.AllowUserToResizeRows = false;
             dataGridViewCellStyle1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(255)))), ((int)(((byte)(192)))));
             this.dgvNamHoc.AlternatingRowsDefaultCellStyle = dataGridViewCellStyle1;
@@ -211,6 +213,7 @@
             this.dgvNamHoc.Location = new System.Drawing.Point(7, 19);
             this.dgvNamHoc.MultiSelect = false;
             this.dgvNamHoc.Name = "dgvNamHoc";
+            this.dgvNamHoc.ReadOnly = true;
             this.dgvNamHoc.RowHeadersBorderStyle = System.Windows.Forms.DataGridViewHeaderBorderStyle.Single;
             this.dgvNamHoc.RowHeadersVisible = false;
             this.dgvNamHoc.RowHeadersWidth = 20;
@@ -227,6 +230,7 @@
             this.Column1.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.None;
             this.Column1.HeaderText = "STT";
             this.Column1.Name = "Column1";
+            this.Column1.ReadOnly = true;
             this.Column1.Width = 35;
             // 
             // groupBox2

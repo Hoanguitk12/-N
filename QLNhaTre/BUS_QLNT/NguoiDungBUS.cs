@@ -71,5 +71,10 @@ namespace BUS_QLNT
         {
             return NguoiDungDAL.Instance.DMK(id, mkcu, mkmoi);
         }
+
+        public bool ResetMK(int id)
+        {
+            return NguoiDungDAL.Instance.ResetMK(id);
+        }
     }
 }

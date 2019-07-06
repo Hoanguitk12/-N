@@ -71,3 +71,14 @@ C:\Users\ASUS\Documents\GitHub\-N\QLNhaTre\BUS_QLNT\obj\Debug\BUS_QLNT.csprojRes
 C:\Users\ASUS\Documents\GitHub\-N\QLNhaTre\BUS_QLNT\obj\Debug\BUS_QLNT.csproj.CoreCompileInputs.cache
 C:\Users\ASUS\Documents\GitHub\-N\QLNhaTre\BUS_QLNT\obj\Debug\BUS_QLNT.dll
 C:\Users\ASUS\Documents\GitHub\-N\QLNhaTre\BUS_QLNT\obj\Debug\BUS_QLNT.pdb
+C:\Users\kdi69\Downloads\-N-master (1)\-N-master\QLNhaTre\BUS_QLNT\bin\Debug\BUS_QLNT.dll
+C:\Users\kdi69\Downloads\-N-master (1)\-N-master\QLNhaTre\BUS_QLNT\bin\Debug\BUS_QLNT.pdb
+C:\Users\kdi69\Downloads\-N-master (1)\-N-master\QLNhaTre\BUS_QLNT\bin\Debug\DAL_QLNT.dll
+C:\Users\kdi69\Downloads\-N-master (1)\-N-master\QLNhaTre\BUS_QLNT\bin\Debug\DTO_QLNT.dll
+C:\Users\kdi69\Downloads\-N-master (1)\-N-master\QLNhaTre\BUS_QLNT\bin\Debug\DAL_QLNT.pdb
+C:\Users\kdi69\Downloads\-N-master (1)\-N-master\QLNhaTre\BUS_QLNT\bin\Debug\DTO_QLNT.pdb
+C:\Users\kdi69\Downloads\-N-master (1)\-N-master\QLNhaTre\BUS_QLNT\obj\Debug\BUS_QLNT.csprojAssemblyReference.cache
+C:\Users\kdi69\Downloads\-N-master (1)\-N-master\QLNhaTre\BUS_QLNT\obj\Debug\BUS_QLNT.csproj.CoreCompileInputs.cache
+C:\Users\kdi69\Downloads\-N-master (1)\-N-master\QLNhaTre\BUS_QLNT\obj\Debug\BUS_QLNT.csproj.CopyComplete
+C:\Users\kdi69\Downloads\-N-master (1)\-N-master\QLNhaTre\BUS_QLNT\obj\Debug\BUS_QLNT.dll
+C:\Users\kdi69\Downloads\-N-master (1)\-N-master\QLNhaTre\BUS_QLNT\obj\Debug\BUS_QLNT.pdb
